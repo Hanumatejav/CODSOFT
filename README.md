@@ -1,3 +1,3 @@
 # CODSOFT
 
-https://hanumatejav.github.io/CODSOFT/
+Calculator link: https://hanumatejav.github.io/CODSOFT/Calculator/
