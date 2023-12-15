@@ -194,19 +194,3 @@ Array.from(buttons).forEach((button)=>{
         }
     })
 });
-
-
-let icon = document.querySelector(".icon");
-icon.onclick = function()
-{
-    document.body.classList.toggle('dark-theme');
-    if(document.body.classList.contains('dark-theme'))
-    {
-        icon.src = "light-theme.png";
-    }
-
-    else
-    {
-        icon.src = "dark-theme.png"
-    }
-};
