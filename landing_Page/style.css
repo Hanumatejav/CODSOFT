@@ -1,0 +1,155 @@
+*, *::after, *::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+#navbar
+{
+    background: transparent !important;
+    padding: 0 8%;
+}
+
+.img-fluid
+{
+    margin-top: -5px;
+    max-width: 7% !important;
+    height: auto;
+}
+
+.nav-link
+{
+    color: #000000 !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    padding: 10px 50px !important;
+    margin: 5px !important;
+}
+
+.nav-link:hover
+{
+    font-weight: 400 !important;
+    background-color: black;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#img
+{
+    height: 600px;
+    width: auto;
+}
+
+#servicetext
+{
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+#serviceimg
+{
+    padding: 5%;
+    text-align: center;
+}
+
+#serviceimg img
+{
+    height: 200px;
+    width: 100%;
+    max-width: 50%;  
+}
+
+@media(max-width:1200px)
+{
+    #img
+    {
+        height: 500px;
+    }
+}
+
+@media(max-width:1000px)
+{
+    #img
+    {
+        height: 400px;
+    }
+}
+
+@media(max-width:800px)
+{
+    #servicetext
+    {
+        text-align: center;
+    }
+}
+
+@media(max-width:700px)
+{
+    #img
+    {
+        height: 300px;
+    }
+    #contact
+    {
+        margin-right: -40px;
+    }
+    #last
+    {
+        margin-right: -40px;
+    }
+}
+
+@media(max-width:500px)
+{
+    #img
+    {
+        height: 230px;
+    }
+    .navbar-toggler
+    {
+        color: transparent !important;
+        border: none !important;
+    }
+    .navbar-toggler-icon
+    {
+        display: flex !important;
+        position: absolute;
+        top: 5px;
+        right: 11px;
+    }
+    .navbar-brand
+    {
+        margin-left: -30px;
+    }
+    #contact p 
+    {
+        font-size: 10px;
+    }
+    #last p 
+    {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:400px)
+{
+    #img
+    {
+        height: 200px;
+    }
+}
+
+@media(max-width:300px)
+{
+    #img
+    {
+        height: 150px;
+    }
+}
